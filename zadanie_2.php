@@ -30,7 +30,7 @@
         </form>
 
         <?php
-            if(isset($_GET['text']))
+            if(isset($_GET['text']) && !empty($_POST['text']))
             {
                 $text = $_GET['text'];
 
